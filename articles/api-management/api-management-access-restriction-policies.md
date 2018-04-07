@@ -204,9 +204,8 @@ Questo argomento fornisce un riferimento per i criteri di Gestione API seguenti.
 ### <a name="example"></a>Esempio  
   
 ```xml  
-<ip-filter action="allow | forbid">  
-    <address>address</address>  
-    <address-range from="address" to="address" />  
+<ip-filter action="allow">  
+    <address>10.4.231.16</address>   
 </ip-filter>  
 ```  
   
